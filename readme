@@ -1,1 +1,15 @@
-donr
+Movie Review Management System
+Is a Django Rest Framework-based API for managing movie reviews.
+
+Features
+1) User login in the Django admin if you want to use it as a reviewer.
+
+2) Movie Reviews
+List Reviews: GET /api/moviereviews/
+List Reviews**: `GET /api/moviereviews/
+Create Review**: `POST /api/moviereviews/ (require login into django admin)
+Retrieve Review**: `GET /api/moviereviews/<id>/
+Update Review**: `PUT /api/moviereviews/<id>/` (require login into django admin)
+Delete Review**: `DELETE /api/moviereviews/<id>/ (require login into django admin)
+
+2) testing is done from the browser not POSTMAN collection is used
